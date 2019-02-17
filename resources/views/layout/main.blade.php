@@ -1,0 +1,11 @@
+<html>
+    <head>
+        @include('layout.header')
+    </head>
+    <body>
+      @include('layout.menu')
+      @yield('page_content')
+      @include('layout.footer')
+      @include('layout.script')
+    </body>
+</html>
