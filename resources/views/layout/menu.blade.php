@@ -1,6 +1,6 @@
 <div class="ui large top fixed menu">
     <div class="ui container">
-        <a class="item active" href="index.html">ホームページ</a>
+        <a class="item active" href="/">ホームページ</a>
         <a class="item" href="book/index.html">本棚</a>
         <a class="item" href="article/index.html">断片</a>
         <div class="right menu">
@@ -15,10 +15,10 @@
                 </div>
             </div>
             <div class="item">
-                <a class="ui button" href="auth/login.html">ログイン</a>
+                <a class="ui button" href="{{route('login')}}">ログイン</a>
             </div>
             <div class="item">
-                <a class="ui primary button" href="auth/register.html">新規ユーザー</a>
+                <a class="ui primary button" href="{{route('register')}}">新規ユーザー</a>
             </div>
         </div>
     </div>
